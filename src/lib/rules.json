@@ -1,0 +1,24 @@
+{
+    "rules": {
+      "users": {
+        ".read": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'owner' || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        "$uid": {
+          ".write": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'owner')",
+          ".read": "auth != null && auth.uid === $uid"
+        }
+      },
+      "communities": {
+        ".read": true,
+        ".write": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'owner' || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        "$communityId": {
+          "countries": {
+            ".write": "auth != null && !data.exists()"
+          }
+        }
+      },
+      "admins": {
+        ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'owner'",
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'owner'"
+      }
+    }
+  }

@@ -1,0 +1,70 @@
+{
+    "communities": {
+      "security_council": {
+        "name": "Security Council",
+        "capacity": 15,
+        "members": 0,
+        "countries": {
+          "usa": { "name": "United States", "available": true },
+          "uk": { "name": "United Kingdom", "available": true },
+          "france": { "name": "France", "available": true },
+          "russia": { "name": "Russia", "available": true },
+          "china": { "name": "China", "available": true },
+          "germany": { "name": "Germany", "available": true },
+          "japan": { "name": "Japan", "available": true },
+          "india": { "name": "India", "available": true },
+          "brazil": { "name": "Brazil", "available": true },
+          "canada": { "name": "Canada", "available": true },
+          "australia": { "name": "Australia", "available": true },
+          "italy": { "name": "Italy", "available": true },
+          "spain": { "name": "Spain", "available": true },
+          "mexico": { "name": "Mexico", "available": true },
+          "indonesia": { "name": "Indonesia", "available": true }
+        }
+      },
+      "general_assembly": {
+        "name": "General Assembly",
+        "capacity": 20,
+        "members": 0,
+        "countries": {
+          "argentina": { "name": "Argentina", "available": true },
+          "netherlands": { "name": "Netherlands", "available": true },
+          "poland": { "name": "Poland", "available": true },
+          "turkey": { "name": "Turkey", "available": true },
+          "saudi": { "name": "Saudi Arabia", "available": true },
+          "egypt": { "name": "Egypt", "available": true },
+          "nigeria": { "name": "Nigeria", "available": true },
+          "pakistan": { "name": "Pakistan", "available": true },
+          "bangladesh": { "name": "Bangladesh", "available": true },
+          "vietnam": { "name": "Vietnam", "available": true },
+          "iran": { "name": "Iran", "available": true },
+          "thailand": { "name": "Thailand", "available": true },
+          "malaysia": { "name": "Malaysia", "available": true },
+          "philippines": { "name": "Philippines", "available": true },
+          "singapore": { "name": "Singapore", "available": true },
+          "sweden": { "name": "Sweden", "available": true },
+          "norway": { "name": "Norway", "available": true },
+          "denmark": { "name": "Denmark", "available": true },
+          "finland": { "name": "Finland", "available": true },
+          "ireland": { "name": "Ireland", "available": true }
+        }
+      }
+    },
+    "users": {
+      "owner": {
+        "email": "klgv2005@gmail.com",
+        "role": "owner",
+        "name": "Owner"
+      }
+    },
+    "events": {
+      "event1": {
+        "title": "Security Council Session",
+        "date": "2024-03-15",
+        "time": "14:00",
+        "location": "Main Assembly Hall",
+        "type": "Conference",
+        "createdBy": "owner"
+      }
+    }
+  }

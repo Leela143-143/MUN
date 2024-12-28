@@ -1,0 +1,39 @@
+{
+  "communities": {
+    "community1": {
+      "name": "Security Council",
+      "logoUrl": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?auto=format&fit=crop&q=80&w=800",
+      "maxCapacity": 5,
+      "currentCount": 0,
+      "countries": {
+        "USA": "",
+        "UK": "",
+        "France": "",
+        "Russia": "",
+        "China": ""
+      }
+    },
+    "community2": {
+      "name": "General Assembly",
+      "logoUrl": "https://images.unsplash.com/photo-1590615367658-7e21c58d9b33?auto=format&fit=crop&q=80&w=800",
+      "maxCapacity": 5,
+      "currentCount": 0,
+      "countries": {
+        "Germany": "",
+        "Japan": "",
+        "India": "",
+        "Brazil": "",
+        "South Africa": ""
+      }
+    }
+  },
+  "people": {},
+  "profile": {},
+  "events": {
+    "event1": {
+      "title": "Opening Ceremony",
+      "date": "2024-04-01",
+      "description": "Official inauguration of IIST MUN 2024"
+    }
+  }
+}
